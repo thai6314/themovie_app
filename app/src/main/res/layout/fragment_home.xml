@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montaga"
+        android:text="Welcome Back!"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montaga"
+        android:text="Dao Van Thai"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/tvNowPlaying"
+        android:text="Now Playing"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montaga"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rlSlide"
+        android:layout_below="@+id/tvNowPlaying"
+        android:layout_centerHorizontal="true"
+        android:layout_width="375dp"
+        android:layout_height="264dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/slideImage"
+            android:layout_width="375dp"
+            android:layout_height="264dp"
+            android:layout_marginTop="30dp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_below="@+id/rlSlide"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tvPopular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montaga"
+            android:text="Popular"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/seeAllList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tvPopular"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/montaga"
+            android:text="See all list"
+            android:layout_marginRight="10dp"
+            android:textColor="#E82627"
+            android:textSize="22sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/white"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

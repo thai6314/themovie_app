@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.22870370370370371" />
+        <entry key="app/src/main/res/drawable/avatar_cast.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/boder_input.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/border_item.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/border_search.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_login.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_login_pastel.xml" value="0.152" />
+        <entry key="app/src/main/res/drawable/button_explore.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/frame5.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/line.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/logo_.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/rectangle.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_movie_detail.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_see_all_list.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_watch_movie.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/avatar_cast.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/avatar_user.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/border_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.18432971014492755" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_update_profile.xml" value="0.18432971014492755" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_episode.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/item_explore.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_search.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/see_all_list.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/navigation.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14311043566362716" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

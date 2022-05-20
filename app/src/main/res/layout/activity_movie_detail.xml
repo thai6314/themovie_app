@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="activities.MovieDetailActivity">
+
+    <ImageView
+        android:id="@+id/heart_black"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:src="@drawable/heart_black"
+        />
+    <ImageView
+        android:id="@+id/heart_red"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:src="@drawable/heart_red"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlPoster"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/ic_baseline_play_circle_24" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/rlPoster"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montaga"
+            android:text="Sonic 2"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_star_rate_24" />
+
+        <TextView
+            android:id="@+id/rateStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/star"
+            android:fontFamily="@font/montaga"
+            android:text="Rate"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlDescription"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rlTitle"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvThePlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montaga"
+            android:text="The Plot"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvDiscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvThePlot"
+            android:fontFamily="@font/montaga"
+            android:scrollbars="vertical"
+            android:text="Discription"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rlDescription"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tvCast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casts"
+            android:fontFamily="@font/montaga"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcCast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCast"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img" />
+
+    </RelativeLayout>
+</RelativeLayout>
