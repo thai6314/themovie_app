@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <TextView
+        android:id="@+id/tvNowPlaying"
+        android:text="Now Playing"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcPopular"
+        android:layout_width="375dp"
+        android:layout_height="600dp"
+        android:layout_below="@+id/tvNowPlaying"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        />
+
+</RelativeLayout>

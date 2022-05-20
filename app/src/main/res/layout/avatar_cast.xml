@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avtCast"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/img" />
+    <TextView
+        android:id="@+id/tvNameCast"
+        android:layout_below="@id/avtCast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montaga"
+        android:layout_marginTop="10dp"
+        android:text="Name Cast"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>
